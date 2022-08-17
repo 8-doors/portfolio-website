@@ -13,13 +13,13 @@ a:active (cyan): #39F8FF
 (turquoise): #35D4C2
 */
 
-  $color__1: #385677;
-  $color__2: #EEFEEC;
-  $color__3: #B8DFF4;
-  $header__fw: 700;
-  $color__4: #E83151;
+$color__1: #385677;
+$color__2: #eefeec;
+$color__3: #b8dff4;
+$header__fw: 700;
+$color__4: #e83151;
 
-body{
+body {
   font-family: 'Amiri', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -34,13 +34,17 @@ body{
 }
 
 a {
-  color: #2A4159;
-  &:hover, &:focus {
+  color: #2a4159;
+
+  &:hover,
+  &:focus {
     text-decoration: none;
   }
+
   &:visited {
-    color: #145B82;
+    color: #145b82;
   }
+
   &:active {
     color: $color__4;
   }
@@ -48,9 +52,11 @@ a {
 
 a.style-2 {
   color: white;
+
   &:visited {
     color: $color__3;
   }
+
   &:active {
     color: $color__4;
   }
@@ -69,7 +75,9 @@ button,
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: 0.2s  opacity;
-  &:hover, &:focus {
+
+  &:hover,
+  &:focus {
     cursor: pointer;
     opacity: 0.8;
   }
@@ -80,12 +88,12 @@ h1 {
   font-weight: $header__fw;
 }
 
-h2{
+h2 {
   font-size: 24px;
   font-weight: $header__fw;
 }
 
-h3{
+h3 {
   font-size: 18px;
   font-weight: $header__fw;
 }
@@ -95,11 +103,11 @@ h4 {
   font-weight: $header__fw;
 }
 
-.navigation-list__item--active{
+.navigation-list__item--active {
   text-decoration: none;
 }
 
-.profile__portrait{
+.profile__portrait {
   float: left;
   width: 100%;
   max-width: 500px;
@@ -111,7 +119,7 @@ h4 {
   clear: both;
 }
 
-.profile{
+.profile {
   max-width: 800px;
   margin: 0 auto;
 }
@@ -155,7 +163,7 @@ h4 {
   margin-left: 15px;
 }
 
-.grid__item{
+.grid__item {
   display: inline-block;
   width: 33%;
 }
@@ -185,7 +193,7 @@ h4 {
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 500px) and (max-width: 750px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -225,7 +233,7 @@ h4 {
 
 @keyframes color-change__mtn1 {
   0% {
-    fill: #377DE6;
+    fill: #377de6;
   }
 
   50% {
@@ -247,13 +255,15 @@ h4 {
 
 @keyframes color-change__mtn2 {
   0% {
-    fill: #5747E6;
+    fill: #5747e6;
   }
+
   50% {
-    fill: #3A3099;
+    fill: #3a3099;
   }
+
   100% {
-    fill: #221C59;
+    fill: #221c59;
   }
 }
 
@@ -267,15 +277,15 @@ h4 {
 
 @keyframes color-change__sun {
   0% {
-    fill: #FFEB0D;
+    fill: #ffeb0d;
   }
 
   50% {
-    fill: #FFB600;
+    fill: #ffb600;
   }
 
   100% {
-    fill: #FF820D;
+    fill: #ff820d;
   }
 }
 
@@ -298,5 +308,5 @@ h4 {
 }
 
 .sun-move {
-    animation: 4s sun-move infinite alternate linear;
+  animation: 4s sun-move infinite alternate linear;
 }
