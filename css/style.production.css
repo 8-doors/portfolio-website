@@ -240,6 +240,7 @@ h4 {
 }
 
 .logo {
+  min-width: 130px;
   max-width: 140px;
 }
 
