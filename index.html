@@ -7,64 +7,119 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.production.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body class="background-style__2">
+  <body>
     <header class="page-header">
       <div>
-        <!-- I want to link this image to the home page at some point -->
-        <a href="index.html">
-          <img src="img/style__2.svg" alt="logo"
+       <a href="index.html">
+          <img src="img/BrandonSanoski logo.svg" alt="logo"
           class="page-header__item logo">
         </a>
       </div>
       <nav class="main-navigation page-header__item">
         <ul role="menubar" class="navigation-list">
           <li role="presentation">
-            <a href="index.html" role="menuitem" class="navigation-list__item--active
-            style-2">Home</a>
+            <a href="index.html" role="menuitem">
+              <?xml version="1.0" ?>
+              <svg baseProfile="tiny" height="36px" id="Layer_1" version="1.2" 
+                viewBox="0 0 24 24" width="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path 
+                d="M12,3c0,0-6.186,5.34-9.643,8.232C2.154,11.416,2,11.684,2,12c0,0.553,0.447,1,1,1h2v7c0,0.553,0.447,1,1,1h3  c0.553,0,1-0.448,1-1v-4h4v4c0,0.552,0.447,1,1,1h3c0.553,0,1-0.447,1-1v-7h2c0.553,0,1-0.447,1-1c0-0.316-0.154-0.584-0.383-0.768  C18.184,8.34,12,3,12,3z" 
+                class="navIcon--current button"/>
+              </svg>
+            </a>
           </li>
           <li role="presentation">
-            <a href="about.html" role="menuitem" class="style-2">
-            About Me</a>
+            <a href="mywork.html" role="menuitem">
+              <?xml version="1.0" ?>
+              <svg height="36px" viewBox="0 0 48 48" width="36px" xmlns="http://www.w3.org/2000/svg"><path 
+                d="M0 0h48v48H0z" fill="none"/>
+                <path d="M40 12h-8V8c0-2.21-1.79-4-4-4h-8c-2.21 0-4 1.79-4 4v4H8c-2.21 0-3.98 1.79-3.98 4L4 38c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V16c0-2.21-1.79-4-4-4zm-12 0h-8V8h8v4z"
+                class="navIcon button"/></svg>
+            </a>
           </li>
           <li role="presentation">
-            <a href="mywork.html" role="menuitem" class="style-2">
-            My Work</a>
-          </li>
-          <li role="presentation">
-            <a href="contact.html" role="menuitem" class="style-2">
-            Contact</a>
+            <a href="contact.html" role="menuitem">
+              <?xml version="1.0" ?>
+              <svg style="enable-background:new 0 0 24 24;" height="35px" width="35px" version="1.1" viewBox="0 0 24 24" 
+              xml:space="preserve" xmlns="http://www.w3.org/2000/svg" 
+              xmlns:xlink="http://www.w3.org/1999/xlink"><g id="info"/><g id="icons">
+                <path d="M21.5,11.1l-17.9-9C2.7,1.7,1.7,2.5,2.1,3.4l2.5,6.7L16,12L4.6,13.9l-2.5,6.7c-0.3,0.9,0.6,1.7,1.5,1.2l17.9-9   C22.2,12.5,22.2,11.5,21.5,11.1z" id="send"
+                class="navIcon button"/></g></svg>
+            </a>
           </li>
         </ul>
       </nav>
     </header>
     <div class="profile">
       <div>
-        <img src="img/profileimg.jpg" class="profile__portrait"
+        <img src="img/profileimg.png" class="profile__portrait"
         alt="portrait photo">
       </div>
       <div class="profile__body">
         <h1>Hello World!</h1>
-        <h4>
-          My name is Brandon Sanoski! I'm a <span>web</span> developer from Utah.
-        </h4>
-        <a href="mywork.html" class="style-2">Look at some of my work</a>
+        <h3 id="myNameIs">
+          My name is Brandon Sanoski! I'm a <span class="webDeveloper">Web Developer</span> from Utah.
+        </h3>
+        <div>
+          <h4>
+            Look at some of 
+            <a href="mywork.html" class="button workButton style-2">My Work</a>
+          </h4>
+        </div>
       </div>
+    </div>
+    <div  class="about__text">
+      <div>
+        <h1>About</h1>
+        <p>
+          Hi I'm Brandon Sansoki, I live in Lewiston Utah, a quaint little town
+          just north of Logan. I have a lot of hobbies, most of them deal <br>with
+          making things with my hands, such as woodworking, pc building, and
+          photography. Below listed are some of my skills:</p>
+      </div>
+      <div>
+        <ul class="navigation-list__about">
+          <li>Front-end development</li>
+          <li>Back-end development</li>
+          <li>Photography</li>
+          <li>Woodworking</li>
+        </ul>
+        <div>
+          Look at <a href="https://www.linkedin.com/in/brandon-sanoski/" class="button style-2" target="_blank">My LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <svg class="animation" version="1.1" id="svg2" viewBox="0 0 1920 489.99998">
+        <defs id="defs6"/>
+        <g id="g8" transform="translate(3.5799771,-227.15884)">
+          <path style="display:inline;fill:#ffffff;stroke-width:0.684151" d="" id="path4133" transform="translate(4.3539072,16.448094)" />
+          <g id="g19995" transform="translate(-3.7628278,0.741163)" style="display:inline">
+            <path style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8.456;stroke-dasharray:none;stroke-opacity:1" d="m 1486.397,390.6468 c -16.4878,-3.6358 -30.6248,-16.43289 -36.0736,-32.65462 -1.3674,-4.06964 -1.4898,-5.16211 -1.5188,-13.55578 -0.042,-10.58264 0.5463,-13.45907 4.3169,-21.30204 4.6831,-9.7398 12.1919,-17.25103 22.1421,-22.14838 7.3017,-3.59413 12.2239,-4.68842 21.0432,-4.67846 8.5359,0.0125 12.4627,0.80361 18.9052,3.82272 5.8449,2.73913 8.9892,4.89788 13.7124,9.41436 17.2657,16.51006 19.8331,41.38153 6.3356,61.37252 -2.4889,3.68652 -10.2523,11.10718 -13.8752,13.26302 -4.7802,2.84419 -11.3158,5.46406 -16.0137,6.41943 -5.1138,1.03983 -14.3683,1.06287 -18.9741,0.0469 z" id="path4137"/>
+            <g id="g19912" style="fill:#ffffff;fill-opacity:1">
+              <path style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8.456;stroke-dasharray:none;stroke-opacity:1" d="M 9.1915819,711.13817 C 3.1444886,710.6544 49.828049,710.17064 49.828049,710.17064 l 50.311821,-50.31182 51.27935,-80.3054 21.28577,-9.67535 56.11702,-57.08456 25.15591,-18.38316 63.85731,19.3507 67.72744,-39.66894 42.57154,6.77275 20.31823,-21.28577 42.57154,6.77274 36.76633,-38.70139 31.92865,1.93507 20.31824,-23.22084 27.09097,10.64288 23.22084,-0.96753 17.41563,18.38316 28.05851,15.48056 13.54549,23.22084 29.99359,22.2533 5.80521,28.05852 64.82484,43.53907 39.66893,13.54548 -22.2533,19.35071 -15.48056,33.86372 -119.97434,77.40279 z" id="path8564" class="mtn__1" />
+              <path style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:8.456;stroke-dasharray:none;stroke-opacity:1" d="m 668.08287,710.17064 99.6561,-61.92224 24.18838,-17.41562 11.61042,-28.05852 32.89618,-29.99358 35.7988,-28.05852 40.63646,-81.27293 26.12345,-2.90261 38.70139,-42.57153 28.05855,-15.48056 18.3831,-35.79879 27.091,-23.22084 16.4481,-41.604 49.3443,-36.76633 18.3831,6.77274 17.4157,-25.15591 26.1234,-13.54548 45.4742,21.28576 16.448,-4.83767 16.4481,14.51302 25.1559,0.96754 55.1495,37.73386 42.5716,-0.96753 25.1559,35.79879 49.3443,23.22084 36.7663,28.05851 87.0781,-13.54549 44.5066,26.12344 29.0261,14.51303 34.8313,32.89619 20.3182,49.34428 39.6689,29.02605 23.2209,26.12344 13.5454,36.76633 15.4806,10.64288 12.578,28.05851 24.1883,16.4481 42.5716,63.8573 c 0,0 42.5715,2.2979 36.7663,1.93507 z" id="path19844" class="mtn__2" />
+            </g>
+          </g>
+        </g>
+      </svg>
+      <!-- <a href='https://www.freepik.com/vectors/mountain-outline'>
+      Mountain outline vector created by macrovector - www.freepik.com</a> -->
     </div>
     <footer class="page-footer">
       <p>You can find me on</p>
-      <div class="social-media">
-        <a href="#" target="_blank">
-          <img src="img/github.svg" height="30" width="30" alt="Github">
+      <div>
+        <a href="https://github.com/8-doors" id="social-media" target="_blank">
+          <img src="img/github.svg" height="35" width="35" alt="Github">
         </a>
-        <a href="https://www.instagram.com/b.sanoski/" target="_blank">
-          <img src="img/insta.svg" height="30" width="30"  alt="Instagram">
+        <a href="https://www.instagram.com/b.sanoski/" id="social-media" target="_blank">
+          <img src="img/insta.svg" height="35" width="35"  alt="Instagram">
         </a>
-        <a href="#" target="_blank">
-          <img src="img/linkedin.svg" height="30" width="30"  alt="LinkedIn">
+        <a href="https://www.linkedin.com/in/brandon-sanoski/" id="social-media" target="_blank">
+          <img src="img/linkedin.svg" height="35" width="35"  alt="LinkedIn">
         </a>
       </div>
     </footer>

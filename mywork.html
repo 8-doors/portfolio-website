@@ -11,31 +11,44 @@
     <link rel="stylesheet" type="text/css" href="css/style.production.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body>
-    <header class="page-header">
-      <div>
-        <!-- I want to link this image to the home page at some point -->
+  <body class="background-style__2">
+    <header class="page-header workHead">
+      <div id="logoImg">
         <a href="index.html">
-          <img src="img/style__1.svg" alt="logo"
+          <img src="img/BrandonSanoski logo.svg" alt="logo"
           class="page-header__item logo" >
         </a>
       </div>
       <nav class="main-navigation page-header__item">
         <ul role="menubar" class="navigation-list">
           <li role="presentation">
-            <a href="index.html" role="menuitem">Home</a>
+            <a href="index.html" role="menuitem">
+              <?xml version="1.0" ?>
+              <svg baseProfile="tiny" height="36px" id="Layer_1" version="1.2" 
+                viewBox="0 0 24 24" width="36px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path 
+                d="M12,3c0,0-6.186,5.34-9.643,8.232C2.154,11.416,2,11.684,2,12c0,0.553,0.447,1,1,1h2v7c0,0.553,0.447,1,1,1h3  c0.553,0,1-0.448,1-1v-4h4v4c0,0.552,0.447,1,1,1h3c0.553,0,1-0.447,1-1v-7h2c0.553,0,1-0.447,1-1c0-0.316-0.154-0.584-0.383-0.768  C18.184,8.34,12,3,12,3z" 
+                class="navIcon button"/>
+              </svg>
+            </a>
           </li>
           <li role="presentation">
-            <a href="about.html" role="menuitem">
-            About Me</a>
+            <a href="mywork.html" role="menuitem">
+              <?xml version="1.0" ?>
+              <svg height="36px" viewBox="0 0 48 48" width="36px" xmlns="http://www.w3.org/2000/svg"><path 
+                d="M0 0h48v48H0z" fill="none"/>
+                <path d="M40 12h-8V8c0-2.21-1.79-4-4-4h-8c-2.21 0-4 1.79-4 4v4H8c-2.21 0-3.98 1.79-3.98 4L4 38c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V16c0-2.21-1.79-4-4-4zm-12 0h-8V8h8v4z"
+                class="navIcon--current button"/></svg>
+            </a>
           </li>
           <li role="presentation">
-            <a href="mywork.html" role="menuitem"
-            class="navigation-list__item--active">
-            My Work</a>
-          </li>
-          <li role="presentation">
-            <a href="contact.html" role="menuitem">Contact</a>
+            <a href="contact.html" role="menuitem">
+              <?xml version="1.0" ?>
+              <svg style="enable-background:new 0 0 24 24;" height="35px" width="35px" version="1.1" viewBox="0 0 24 24" 
+              xml:space="preserve" xmlns="http://www.w3.org/2000/svg" 
+              xmlns:xlink="http://www.w3.org/1999/xlink"><g id="info"/><g id="icons">
+                <path d="M21.5,11.1l-17.9-9C2.7,1.7,1.7,2.5,2.1,3.4l2.5,6.7L16,12L4.6,13.9l-2.5,6.7c-0.3,0.9,0.6,1.7,1.5,1.2l17.9-9   C22.2,12.5,22.2,11.5,21.5,11.1z" id="send"
+                class="navIcon button"/></g></svg>
+            </a>
           </li>
         </ul>
       </nav>
@@ -43,91 +56,76 @@
     <section>
       <div>
         <h1>My Work</h1>
+        <p>This page shows my list of projects, current and past. 
+          I'll list the name and a short description of the project, 
+          aswell as what I used to make it listed from most to least used.
+        </p>
       </div>
       <div class="grid">
         <div class="grid__item">
-          <h2>My Portfolio Page</h2>
+          <h2>My Portfolio Site</h2>
           <p>
-            I made this page that you're viewing now, through HTML and CSS.
+            I made this website using HTML and CSS as a personal portfolio to show off my achievements 
+            and skill as a developer. I feel like i did a pretty good job, let me know what you think.
           </p>
-          <a href="#">you can learn more here</a>
+          <a href="https://github.com/8-doors/portfolio-website" target="_blank">
+            <img src="img/github.svg" height="35" width="35" alt="Github">
+          </a>
         </div>
         <div class="grid__item">
-          <h2>My Portfolio Page</h2>
+          <h2>Basic To Do List Page</h2>
           <p>
-            I made this page that you're viewing now, through HTML and CSS.
+            This page is one of the projects I made from the <a href="https://careerfoundry.com/" target="_blank">
+              CareerFoundry</a> bootcamp, its simple but usefull. I made it using HTML, CSS, JS, and JQuery.  
           </p>
-          <a href="#">you can learn more here</a>
+          <a href="https://github.com/8-doors/JQuerry-app" target="_blank">
+            <img src="img/github.svg" height="35" width="35" alt="Github">
+          </a>
         </div>
         <div class="grid__item">
-          <h2>My Portfolio Page</h2>
+          <h2>Basic Pokedex Page</h2>
           <p>
-            I made this page that you're viewing now, through HTML and CSS.
+            This one is an index of the original 151 Pokemon. 
+            This is another project that I made from CareerFoundry, 
+            I used JS, HTML, CSS, and the bootstrap library to make this.
           </p>
-          <a href="#">you can learn more here</a>
+          <a href="https://github.com/8-doors/simple-js-app/tree/main" target="_blank">
+            <img src="img/github.svg" height="35" width="35" alt="Github">
+          </a>
         </div>
         <div class="grid__item">
-          <h2>My Portfolio Page</h2>
+          <h2>F/Stop Movie API</h2>
           <p>
-            I made this page that you're viewing now, through HTML and CSS.
+            This is a web API for movies I built for a CareerFoundry project. It holds a list of 
+            movies, directors, genres and users for use in another Front-End webpage. I made it using 
+            JS, MongoDB, HTML, and express.js.
           </p>
-          <a href="#">you can learn more here</a>
+          <a href="https://github.com/8-doors/movie_api/tree/main" target="_blank">
+            <img src="img/github.svg" height="35" width="35" alt="Github">
+          </a>
         </div>
         <div class="grid__item">
-          <h2>My Portfolio Page</h2>
+          <h2>F/Stop Movie Page</h2>
           <p>
-            I made this page that you're viewing now, through HTML and CSS.
+            WIP A page built to diaplay the data from my movie API.
           </p>
-          <a href="#">you can learn more here</a>
-        </div>
-        <div class="grid__item">
-          <h2>My Portfolio Page</h2>
-          <p>
-            I made this page that you're viewing now, through HTML and CSS.
-          </p>
-          <a href="#">you can learn more here</a>
-        </div>
-        <div class="grid__item">
-          <h2>My Portfolio Page</h2>
-          <p>
-            I made this page that you're viewing now, through HTML and CSS.
-          </p>
-          <a href="#">you can learn more here</a>
-        </div>
-        <div class="grid__item">
-          <h2>My Portfolio Page</h2>
-          <p>
-            I made this page that you're viewing now, through HTML and CSS.
-          </p>
-          <a href="#">you can learn more here</a>
-        </div>
-        <div class="grid__item">
-          <h2>My Portfolio Page</h2>
-          <p>
-            I made this page that you're viewing now, through HTML and CSS.
-          </p>
-          <a href="#">you can learn more here</a>
-        </div>
-        <div class="grid__item">
-          <h2>My Portfolio Page</h2>
-          <p>
-            I made this page that you're viewing now, through HTML and CSS.
-          </p>
-          <a href="#">you can learn more here</a>
+          <a href="https://github.com/8-doors/Fstop_frontend" target="_blank">
+            <img src="img/github.svg" height="35" width="35" alt="Github">
+          </a>
         </div>
       </div>  
     </section>
     <footer class="page-footer">
       <p>You can find me on</p>
-      <div class="social-media">
-        <a href="#" target="_blank">
-          <img src="img/github.svg" height="30" width="30" alt="Github">
+      <div>
+        <a href="https://github.com/8-doors" id="social-media-style-2" target="_blank">
+          <img src="img/github.svg" height="35" width="35" alt="Github">
         </a>
-        <a href="https://www.instagram.com/b.sanoski/" target="_blank">
-          <img src="img/insta.svg" height="30" width="30"  alt="Instagram">
+        <a href="https://www.instagram.com/b.sanoski/" id="social-media-style-2" target="_blank">
+          <img src="img/insta.svg" height="35" width="35"  alt="Instagram">
         </a>
-        <a href="#" target="_blank">
-          <img src="img/linkedin.svg" height="30" width="30"  alt="LinkedIn">
+        <a href="https://www.linkedin.com/in/brandon-sanoski/" id="social-media-style-2" target="_blank">
+          <img src="img/linkedin.svg" height="35" width="35"  alt="LinkedIn">
         </a>
       </div>
     </footer>
