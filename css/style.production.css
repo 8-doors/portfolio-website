@@ -153,6 +153,14 @@ a.style-2:active {
   color: #D53A35;
 }
 
+a.button-style {
+  color: #218500;
+}
+
+a.button-style:active {
+  color: #FCFAFA;
+}
+
 /* HEADER */
 
 .page-header {
@@ -353,8 +361,8 @@ section {
 }
 
 .mtn__1 {
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
   -webkit-animation-name: color-change__mtn1;
   animation-name: color-change__mtn1;
   -webkit-animation-iteration-count: infinite;
@@ -394,8 +402,8 @@ section {
 }
 
 .mtn__2 {
-  -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
   -webkit-animation-name: color-change__mtn2;
   animation-name: color-change__mtn2;
   -webkit-animation-iteration-count: infinite;
@@ -435,8 +443,8 @@ section {
 }
 
 #path4137 {
-  -webkit-animation: 5s sun-move infinite alternate linear;
-  animation: 5s sun-move infinite alternate linear;
+  -webkit-animation: 6s sun-move infinite alternate linear;
+  animation: 6s sun-move infinite alternate linear;
 }
 
 @-webkit-keyframes Web-Developer {
@@ -509,8 +517,16 @@ section {
 /* CONTACT */
 
 .contactBody {
-  padding-top: 165px;
-  margin-left: 60px;
+  padding-top: 180px;
+  margin-left: 100px;
+}
+
+.message-forms {
+  margin-left: 40px;
+}
+
+.headRoom {
+  margin-bottom: 20px;
 }
 
 /* FOOTER */
@@ -527,4 +543,8 @@ section {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 25px;
+}
+
+.contFoot {
+  margin-top: 539px;
 }
