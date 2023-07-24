@@ -157,6 +157,10 @@ a.button-style {
   color: #218500;
 }
 
+a.button-style:visited {
+  color: #1C7000;
+}
+
 a.button-style:active {
   color: #FCFAFA;
 }
