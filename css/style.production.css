@@ -22,6 +22,9 @@ a:visited.style_2 (Office Green): #1C7000
 
 /* GENERAL */
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Spectral', serif;
@@ -237,7 +240,17 @@ a.button-style:active {
 .profile__body {
   text-align: left;
   padding-top: 140px;
-  padding-bottom: 480px;
+  padding-bottom: 380px;
+}
+
+.arrowBox {
+  width: 100%;
+}
+
+.arrow {
+  margin: 0% 0% 0% 49.2%;
+  height: 38px;
+  width: 38px;
 }
 
 #myNameIs {
@@ -321,13 +334,17 @@ section {
 /* ABOUT TEXT */
 
 .about__text {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding: 150px 0px 150px 0px;
+  margin: 0px 250px 0px 250px;
   text-align: center;
 }
 
 .navigation-list__about {
   list-style-type: none;
+}
+
+#lookAt {
+  margin: 0px 0px 10px 0px;
 }
 
 /* ANIMATION */
