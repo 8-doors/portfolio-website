@@ -262,14 +262,179 @@ a.button-style:active {
   margin-left: 5px;
 }
 
+@media all and (min-width: 667px) and (max-width: 686px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 3px;
+  }
+}
+
+@media all and (min-width: 677px) and (max-width: 696px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 12px;
+  }
+}
+
+@media all and (min-width: 687px) and (max-width: 706px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 15px;
+  }
+}
+
+@media all and (min-width: 697px) and (max-width: 716px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 21px;
+  }
+}
+
+@media all and (min-width: 717px) and (max-width: 726px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 30px;
+  }
+}
+
+@media all and (min-width: 727px) and (max-width: 736px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 33px;
+  }
+}
+
+@media all and (min-width: 737px) and (max-width: 746px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 39px;
+  }
+}
+
+@media all and (min-width: 747px) and (max-width: 756px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 48px;
+  }
+}
+
+@media all and (min-width: 757px) and (max-width: 766px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 51px;
+  }
+}
+
+@media all and (min-width: 767px) and (max-width: 776px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 57px;
+  }
+}
+
+@media all and (min-width: 777px) and (max-width: 786px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 66px;
+  }
+}
+
+@media all and (min-width: 787px) and (max-width: 796px) {
+  .profile__portrait {
+    margin: 0px 0px 0px 69px;
+  }
+}
+
+@media all and (max-width: 796px) {
+  .profile {
+    padding-top: 180px;
+  }
+
+  .profile__portrait {
+    float: revert;
+  }
+
+  .profile__body {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+}
+
+@media all and (min-width: 797px) and (max-width: 1142px) {
+  .profile__body {
+    padding-bottom: 296px;
+  }
+}
+
+@media all and (min-width: 1143px) and (max-width: 1210px) {
+  .profile__body {
+    padding-bottom: 338px;
+  }
+}
+
+@media all and (max-width: 1210px) {
+  .profile {
+    margin: 10vmin;
+    margin-top: 0;
+    margin-bottom: 0;
+  } 
+}
+
+@media all and (min-width: 1211px) and (max-width: 1342px) {
+  .profile__body {
+    padding-bottom: 296px;
+  }
+}
+
+@media all and (min-width: 1343px) and (max-width: 1380px) {
+  .profile__body {
+    padding-bottom: 338px;
+  }
+}
+
+@media all and (min-width: 1211px) and (max-width: 1380px) {
+  .profile {
+    margin: 20vmin;
+    margin-top: 0;
+    margin-bottom: 0;
+  } 
+}
+
+@media all and (min-width: 1381px) and (max-width: 1383px) {
+  .profile__body {
+    padding-bottom: 254px;
+  }
+}
+
+@media all and (max-width: 1386px) {
+  .workButton {
+    margin-left: 0px;
+  }
+}
+
+@media all and (min-width: 1384px) and (max-width: 1516px) {
+  .profile__body {
+    padding-bottom: 296px;
+  }
+}
+
+@media all and (min-width: 1517px) and (max-width: 1889px) {
+  .profile__body {
+    padding-bottom: 338px;
+  }
+}
+
+@media all and (max-width: 1210px) {
+  .page-header {
+    background-color: #376532;
+  }
+}
+
 /* MY WORK GRID */
 
 section {
   padding-top: 180px;
+}
+
+.workDes {
   margin-left: 100px;
   margin-right: 100px;
 }
 
+.gridiv {
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 .grid {
   display: -ms-grid;
@@ -296,6 +461,46 @@ section {
   grid-row: 3/3;
 }
 
+@media all and (max-height: 425px) {
+  .page-header {
+    position: static;
+  }
+
+  section {
+    padding-top: 40px;
+  }
+}
+
+@media all and (max-height: 750px) {
+  .page-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  ul {
+    padding-inline-start: 0px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .workDes {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  section {
+    padding-top: 120px;
+  }
+}
+
+@media all and (max-width: 475px) {
+  #workdes {
+    font-size: 20px;
+  }
+}
+
 @media all and (max-width: 500px) {
   .grid {
     -ms-grid-columns: 1fr;
@@ -320,9 +525,28 @@ section {
     grid-column: auto/auto;
     grid-row: auto/auto;
   }
+}
 
-  h1 {
-    font-size: 22px;
+@media all and (min-width: 426px) and (max-width: 1399px) {
+  .workDes {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media all and (min-width: 426px) 
+           and (max-width: 1024px) 
+           and (min-height: 476px) 
+           {
+  section {
+    padding-top: 150px;
+  }
+}
+
+@media all and (max-width: 1399px) {
+  .gridiv {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
@@ -345,6 +569,30 @@ section {
 
 #lookAt {
   margin: 0px 0px 10px 0px;
+}
+
+@media all and (max-width: 600px) {
+  .about__text {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 699px) {
+  .about__text {
+    margin: 0px 25px 0px 25px;
+  }
+}
+
+@media all and (min-width: 700px) and (max-width: 950px) {
+  .about__text {
+    margin: 0px 75px 0px 75px;
+  }
+}
+
+@media all and (min-width: 951px) and (max-width: 1250px) {
+  .about__text {
+    margin: 0px 150px 0px 150px;
+  }
 }
 
 /* ANIMATION */
@@ -543,7 +791,7 @@ section {
 }
 
 .message-forms {
-  margin-left: 40px;
+  margin: 0px 702px 0px 40px;
 }
 
 .headRoom {
@@ -568,4 +816,42 @@ section {
 
 .contFoot {
   margin-top: 539px;
+}
+
+@media all and (max-width: 1195px) {
+  .message-forms {
+    margin: 0px 0px 0px 15px
+  }
+  
+  .contactBody {
+    margin-left: 15px;
+  }
+  
+  .contFoot {
+    margin-top: 104px;
+  }
+}
+
+@media all and (min-width: 1196px) and (max-width: 1445px) {
+  .message-forms {
+    margin: 0px 200px 0px 40px
+  }
+  
+  .contactBody {
+    margin-left: 50px;
+  }
+
+  .contFoot {
+    margin-top: 304px;
+  }
+}
+
+@media all and (min-width: 1446px) and (max-width: 1697px) {
+  .message-forms {
+    margin: 0px 450px 0px 40px
+  }
+  
+  .contFoot {
+    margin-top: 504px;
+  }
 }
